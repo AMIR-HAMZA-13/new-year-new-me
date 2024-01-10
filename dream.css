@@ -1,0 +1,13 @@
+header {
+        background-image: url('images/banner/banner3.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+}
+.watch{
+       
+        height: 300px;
+        border-radius: 8px;
+        background: linear-gradient(90deg, #0a7ce7 0%, rgba(149, 245, 154, 0) 100%), url('images/watch.png');  
+        margin: 100px 0;
+ }

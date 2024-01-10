@@ -1,0 +1,145 @@
+/* header section */
+* {
+        font-family: sans-serif;
+}
+
+header {
+        background-image: url('images/banner/banner1.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+}
+
+nav ul {
+        display: flex;
+        list-style: none;
+        margin-left: 60%;
+}
+header a{
+        text-decoration: none;
+        color: black;
+}
+
+nav li {
+        margin: 50px;
+}
+main{
+        width: 1140px ;
+        margin: auto;
+}
+
+.home-banner {
+        text-align: right;
+        width: 500px;
+        padding: 160px 230px 350px 1145px;
+}
+header h1{
+        font-size: 65px;
+        font-weight: 700;
+}
+header p{
+        font-size: 16px;
+        line-height:26px ;
+        font-weight: 400;
+}
+.btn-primary{
+      border-radius: 5px;
+      background: #F15B22;
+      padding: 20px 30px;  
+      font-size: 20px;
+      border: none;
+}
+ .about-failure{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 100px;
+        
+ }
+ .about-failure-title{
+        padding-top: 150px;
+ }
+ .about-failure-title h2{
+        font-size: 40px;
+        font-weight: 700;
+        padding-left: 50px;
+       
+ }
+ .about-failure p{
+        padding-left: 50px;
+ }
+ .about-failure ul{
+        list-style: none;
+        line-height: 26px;
+        
+ }
+ .about-failure img{
+        padding-right: 20px;
+        padding-top: 5px;
+ }
+ 
+ /* check mark ba tik mark style */
+ /* .about-failure ul li:before{
+        content: '\221A';
+        color: green;
+        padding-right: 20px;
+        
+        
+ } */
+
+ /* my plans section */
+ .my-plans h2{
+        text-align: center;
+        margin-top: 100px;
+        font-weight: 700;
+        font-size: 35px;
+        
+ }
+ .my-plan-title{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+ }
+ /* watch Section */
+ .watch{
+       
+        height: 300px;
+        border-radius: 8px;
+        background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0.00) 100%), url('images/watch.png');  
+        margin: 100px 0;
+ }
+ .watch-title{
+    padding-top: 40px;
+padding-left: 80px;
+font-size: 30px;
+ }
+ .btn-secendary{
+        font-size: 22px;
+        padding: 15px 30px;
+        border-radius: 10px;
+        border: none;
+        color: #F15B22;
+ }
+
+ /* footer section */
+ footer{
+height: 500px;
+background-color: black;
+color: white;
+ }
+ .footer-future{
+        display: flex;
+      width: 1160px;
+      margin: auto;
+      padding-top: 100px;
+      line-height: 40px;
+      justify-content: space-between;
+ }
+footer input[type='email']{
+        background-color: black;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 20px;
+}
+ 
